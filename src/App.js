@@ -52,7 +52,7 @@ function App() {
 
   /* To demonstrate : http client adds the access token to the Authorization header */
   const callBackend = () => {
-    httpClient.get('https://mockbin.com/request')
+    httpClient.get('http://127.0.0.1:8000/api/v1/')
 
   };
 
